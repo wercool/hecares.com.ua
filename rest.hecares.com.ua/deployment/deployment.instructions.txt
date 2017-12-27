@@ -1,0 +1,8 @@
+1) Create initial database structure
+mysql -uroot -p < init-db.sql
+
+2) Insert initial data records
+mysql -uhecares -p < init-data.sql
+
+2) Hecares server by default is running on 8090 port (`server.port` in application.properties)
+
